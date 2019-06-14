@@ -1,0 +1,62 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1560478360319" stop="1560478360379">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1560478360319" status="failed" stop="1560478360369">
+      <name>test_login.TestLogin.test_login_001</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_login.TestLogin object at 0x0000000003BEB400&gt;
+
+    def test_login_001(self):
+&gt;       assert 0
+E       assert 0
+
+test_login.py:4: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3080-MainThread"/>
+        <label name="host" value="MS"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1560478360379" status="failed" stop="1560478360379">
+      <name>test_login.TestLogin.test_login_002</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_login.TestLogin object at 0x0000000003BEE4A8&gt;
+
+    def test_login_002(self):
+&gt;       assert 0
+E       assert 0
+
+test_login.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3080-MainThread"/>
+        <label name="host" value="MS"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1560478360379" status="passed" stop="1560478360379">
+      <name>test_login.TestLogin.test_login_003</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3080-MainThread"/>
+        <label name="host" value="MS"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
